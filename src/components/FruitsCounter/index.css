@@ -1,0 +1,50 @@
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  background-size: cover;
+  padding: 20px;
+  padding-top: 40px;
+}
+.fruits-counter-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 36px;
+  text-align: center;
+}
+.image {
+  width: 60%;
+  align-self: center;
+  margin-bottom: 12px;
+}
+.counter-container {
+  display: flex;
+}
+.mango-container {
+  display: flex;
+  flex-direction: column;
+}
+.banana-container {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  align-self: center;
+  color: #ffffff;
+  background-color: #007bff;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  padding: 8px;
+}
+.count {
+  color: #ffd569;
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 18px;
+  }
+  .counter-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
